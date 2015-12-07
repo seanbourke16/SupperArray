@@ -183,6 +183,21 @@ public class SuperArray implements ListInt{
 	  mayfield.add(1,77);
 	  System.out.println("Printing SuperArray mayfield post-insert...");
 	  System.out.println(mayfield);
+	  System.out.println("ListInt tests:");
+	  ListInt jim=new SuperArray();
+	  jim.add(7);
+	  jim.add(11);
+	  jim.add(0,12);
+	  System.out.println("Printing ListInt jim post-add");
+	  System.out.println(jim);
+	  jim.remove(1);
+	  System.out.println("Printing ListInt jim post-remove");
+	  System.out.println(jim);
+	  jim.set(0,1);
+	  System.out.println("Printing index 0 of ListInt jim post-set");
+	  System.out.println(jim.get(0));
+	  System.out.println("Printing size of ListInt jim");
+	  System.out.println(jim.size());
           /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
